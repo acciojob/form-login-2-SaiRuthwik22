@@ -4,5 +4,5 @@ function handle(event) {
 	let LastName = document.getElementById("LastName").value
 	let PhoneNumber = document.getElementById("PhoneNumber").value
 	let EmailID = document.getElementById("EmailID").value
-	alert(`First Name: ${firstName} Last Name: ${LastName} Phone Number: ${PhoneNumber} Email ID: ${EmailID}`)
+	alert(`First Name: ${firstName}\nLast Name: ${lastName}\nPhone Number: ${phoneNumber}\nEmail ID: ${emailID}`);
 }
