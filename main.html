@@ -10,11 +10,13 @@
 	<!-- the entire body must be written by student -->
 	    <script type="text/javascript" src="./script.js">
 </script>
-	<label for="FirstName">First Name: </label><input type="text" name="First Name" id="FirstName"  /><br>
-	<label for="LastName">Last Name: </label><input type="text" name="Last Name" id="LastName" /><br>
-	<label for="PhoneNumber">Phone Number: </label><input type="number" name="Phone Number" id="PhoneNumber" /><br>
-	<label for="EmailID">Email ID: </label><input type="email" name="Email ID" id="EmailID" /><br>
-	<button onclick="handle()">Submit</button>
+		<form onsubmit="handle(event)">
+		<label for="FirstName">First Name: </label><input type="text" name="First Name" id="FirstName"  />
+		<label for="LastName">Last Name: </label><input type="text" name="Last Name" id="LastName" />
+		<label for="PhoneNumber">Phone Number: </label><input type="number" name="Phone Number" id="PhoneNumber" />
+		<label for="EmailID">Email ID: </label><input type="email" name="Email ID" id="EmailID" />
+		<input type="submit" value="Submit">
+	</form>
 
 </body>
 
